@@ -1,0 +1,125 @@
+charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+body {
+   font-family: arial, sans-serif;
+   background-color: #ddd;
+   background: url('istockphoto-1209996768-612x612.jpg');
+
+}
+
+div#interface {
+    position: relative;/* transforma a div em container */
+    background-color: #fff; /* branco */
+    width: 900px;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* sombra */
+    padding: 10px; /* espaçamento interno da div */
+    background: url
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid; /* borda inferior do header */
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center
+}
+
+nav#menu ul {
+    list-style: none; /* feito para tirar os pontos(maracdores) na lateral esquerda */
+    text-transform: uppercase; /* converter para maiúsculas*/
+    position: absolute; /* para que o nenu possa ser colocado no topo, é precio ser absoluto */
+    top: -3px; /* posicionadoao topo. valor negativo para empurrar além da borda */
+    right:25px; /* posicionado a direita */
+}
+
+nav#menu{
+    display: block; /* tranformar todo o meu menu em um bloco */
+}
+
+nav#menu ul {
+    list-style: none; /* feito para tirar os pontos(maracdores) na lateral esquerda */
+    text-transform: uppercase; /* converter para maiúsculas*/
+    position: absolute; /* para que o nenu possa ser colocado no topo, é precio ser absoluto */
+    top: -3px; /* posicionadoao topo. valor negativo para empurrar além da borda */
+    right:25px; /* posicionado a direita */
+    text-align: right;
+    position: absolute;
+    top: 40px;
+}
+
+nav#menu li {
+    display: inline-block; /* colocar os itens lado a lado */
+    background-color: black; /* cor de fundo - cinza */
+    padding: 10px; /* aumentar o espaçamento interno da caixa cinza */
+    margin: 2px;/* aumentar o espaçamento externo da caixa cinza */
+    transition: background-color 1s /* tempo da transição */
+}
+
+/* hover para o efeito do mouse ao passar sobre o li */
+nav#menu li:hover {
+    background-color: #606060; /* cinza escuro */
+}
+
+nav#menu h1 {
+    display: none; /* ocultar a tag h1 */
+
+}
+/* a é o link*/
+nav#menu a {
+    color: #fff; /* preto */
+    text-decoration: none; /* remove o sublinhado do link */
+}
+/* ao passar o mouse sobre  o link (tag a)  */
+nav#menu a:hover {
+    color: #fff; /* branco */
+    text-decoration: underline; /* sublinhado */
+}
+header#cabecalho h2 {
+    font-family: 'FonteLogo';
+    font-size: 20pt;
+    color: #606060;
+    margin: 0px;
+    }
+
+img#imghj{
+width:300px;
+}
+
+img#outraimg {
+width:350px;
+}
+
+img#imgcabecalho{
+width:110px;
+}
+
+hgroup#cabecalho-noticia-principal h1 {
+
+    background-color: black;
+    color: #fff;
+    font-family: 'FonteLogo';
+}
+
+hgroup#eu {
+  text-align: justify;
+  text-indent: 50px;
+}
+
+hgroup#eu2 {
+  text-align: justify;
+  text-indent: 50px;
+}

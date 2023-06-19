@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fale conosco</title>
+    <link rel="stylesheet" type="text/css" href="sobre-o-autor.css">
+</head>
+<body>
+<div id="interface">
+     <header id="cabecalho">
+         <hgroup>
+            <h2>Fale conosco</h2>
+             <img id="imgcabecalho" src="tiimg.jpg">
+        </hgroup>
+
+           <nav id="menu">
+        <h1>menu principal</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="analistadecomputador.html">Analista de sistema de computador </a></li>
+                <li><a href="gerente-de-ti.html">Gerente de T.I</a></li>
+                <li><a href="administrador-de-banco-de-dados.html">Administrador de banco de dados</a></li>
+                <li><a href="sobre o autor.html">sobre o autor </a></li>
+                <li><a href="fale-conosco.html">Fale conosco</a></li>
+            </ul>
+           </nav>
+     </header>
+
+    <section id="corpo">
+
+        <article id="noticia-principal">
+
+            <hgroup id="cabecalho-noticia-principal">
+                <h1>fale conosco</h1>
+            </hgroup>
+        </article>
+    </section>
+
+ <form method="post" action="mailto:felipeasmiguel@gmail.com" oninput="calc_total()">
+    <fieldset id="idMensagem">
+        <legend>Envie sua dúvida</legend>
+        <p><label>Mensagem:</label></p>
+        <p><label for="idNome">Nome:<input type="text" name="nNome" id="idNome" size="40" maxlength="40" placeholder="Digite aqui o seu nome"></label></p>
+        <p><label for="idSlider">Avaliação do site:</label> Min <input type="range" name="nSlider" id="idSlider" min="0" max="10" step="1"> Máx </p>
+        <textarea name="nMsg" id="idMsg" cols="100" rows="5" maxlength="250" placeholder="Deixe aqui sua mensagem"></textarea>
+    </fieldset>
+</form>
+
+     <footer id="rodape">
+                <p>by alyson bruno<br>
+                    <a href="http://Facebook.com" target="_blank"> Facebook</a> |
+                    <a href="http://twitter.com" target="_blank"> Twitter</a>
+                </p>
+     </footer>
+</body>
